@@ -1,0 +1,54 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.outer-squares {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.squares {
+	display: grid;
+	justify-items: center;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
+	align-items: center;
+	width: 100vw;
+}
+
+.rollback {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+button {
+	margin: 0 10px;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+h1 {
+	text-align: center;
+}
+
+.history_button {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.square_content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30vw;
+	height: 30vh;
+	text-align: center;
+	margin: 10px;
+	font-size: 20px;
+	border: 2px solid black;
+}
